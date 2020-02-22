@@ -32,6 +32,7 @@ namespace Addition_task
         static void Main(string[] args)
         {
             Notebook notebook = new Notebook("Aspire v3-771g", "Acer", 24500.50);
+
             notebook.DisplaysTheContentsOfTheFiledsOnTheScreen();
 
             Console.ReadKey();
